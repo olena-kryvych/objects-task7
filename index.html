@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 7</title>
+</head>
+
+<body>
+    <script>
+        /*var salaries = {  
+        John: 100,  
+        Bill: 300,  
+        Mike: 250  
+};*/
+        var salaries = {
+            Cris: 150,
+            Brain: 600,
+            John: 300,
+            Steve: 400,
+            Bill: 50
+        };
+        var tmp = 0;
+        for (var key in salaries) {
+            tmp += salaries[key];
+        }
+        alert(tmp); 
+    </script>
+</body>
+
+</html>
